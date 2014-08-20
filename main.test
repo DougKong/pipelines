@@ -1,0 +1,9 @@
+package misc
+
+import "fmt"
+
+func TestTestFunc(t *testing.T) {
+  if TestFunc() != "a" {
+    t.Fail();
+  }
+}
